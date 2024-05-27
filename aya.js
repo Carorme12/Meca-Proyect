@@ -4,7 +4,7 @@ const path = require('path');
 const mysql = require('mysql2');
 
 const app = express();
-const port = 8888;
+const port = 3000;
 
 const conexion = mysql.createConnection({
   host: 'localhost',
